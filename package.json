@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin-ts": "^2.12.1",
+    "@types/bun": "latest",
+    "@types/node": "^22.10.2",
+    "@types/ssh2": "^1.15.1",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "bun": "^1.1.42",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2"
+  },
+  "scripts": {
+    "main": "bun run src/main.ts"
+  },
+  "name": "mcadmin",
+  "bin": "./src/main.ts",
+  "module": "src/main.ts",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.726.1",
+    "@aws-sdk/client-ec2": "^3.716.0",
+    "@aws-sdk/client-ecs": "^3.716.0",
+    "commander": "^12.1.0",
+    "set-interval-async": "^3.0.3",
+    "ssh2": "^1.16.0",
+    "zod": "^3.24.1"
+  }
+}

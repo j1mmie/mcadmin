@@ -1,0 +1,14 @@
+{
+  "awsProfile":        "MY-AWS-PROFILE-NAME",
+  "region":            "MY-AWS-REGION",
+  "clusterName":       "minecraft",
+  "serviceName":       "minecraft-server"
+  "gameContainerName": "minecraft-server",
+  "sshInstanceId":     "JUMPBOX-SSH-INSTANCE-ID",
+  "sshKeyPath":        "JUMPBOX-SSH-PATH-TO-PEM-KEY",
+  "sshUserName":       "JUMPBOX-SSH-USERNAME",
+  "gameHostName":      "EXAMPLE: minecraft.example.com",
+  "javaPort":          25565,
+  "bedrockPort":       19132,
+  "watchDogLogGroupArn": "WATCHDOG-LOG-GROUP-ARN"
+}
